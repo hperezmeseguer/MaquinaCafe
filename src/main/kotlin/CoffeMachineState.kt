@@ -22,7 +22,7 @@ sealed class CoffeeMachineState {
 
     object E2_SeleccionBebida : CoffeeMachineState() {
         fun onEnter() {
-            println("Entrando al estado E2_SeleccionBebida")
+            println("Pasando al estado E2_SeleccionBebida")
             Thread.sleep(2000)
 
             val b = bebida
